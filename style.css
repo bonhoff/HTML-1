@@ -1,0 +1,37 @@
+#header{
+    height: 50px;
+    background-color: beige;
+}
+
+.aTag{
+    padding: 5px;
+    float: right;
+}
+
+#prof{
+    border-radius: 100%;
+
+}
+
+#dBody{
+    text-align: center;
+}
+
+#who{
+    text-align: center;
+}
+#where{
+    text-align: center;
+}
+#what{
+    text-align: center;
+}
+
+.titpar{
+    font-weight: bold;
+}
+
+#footer{
+    margin-top: 10px;
+    text-align: center;
+}
