@@ -1,37 +1,33 @@
-#header{
-    height: 50px;
-    background-color: beige;
-}
+#animation {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 200px;
+    animation: bounce 2s alternate infinite ease-in-out;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(1500px);
+    }
+    100%{
+        transform: translateX(-1500px);
+    }
+  }
 
-.aTag{
-    padding: 5px;
-    float: right;
-}
 
-#prof{
-    border-radius: 100%;
-
-}
-
-#dBody{
+  
+  
+#bodyDiv{
     text-align: center;
 }
 
-#who{
-    text-align: center;
-}
-#where{
-    text-align: center;
-}
-#what{
-    text-align: center;
-}
-
-.titpar{
-    font-weight: bold;
-}
-
-#footer{
-    margin-top: 10px;
+h1{
+    color: green;
     text-align: center;
 }
