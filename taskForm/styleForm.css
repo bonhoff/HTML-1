@@ -1,0 +1,22 @@
+.fieldset{
+    width: 50%;
+    text-align: left;
+    padding: 10px;
+}
+#allForm{
+    display: flex;
+}
+#submit{
+   margin-inline-start:46.5%;
+   width: 100px;
+   height: 50px;
+   margin-top: 5px;
+   font-size: large;
+
+}
+.legend{
+    text-align: center;
+}
+#checkboxes{
+    display: inline-table;
+}
